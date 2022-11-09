@@ -1,0 +1,45 @@
+Arguments: 
+  /Users/zach/.nvm/versions/node/v16.15.1/bin/node /Users/zach/.nvm/versions/node/v16.15.1/bin/yarn start
+
+PATH: 
+  /opt/homebrew/opt/sqlite/bin:/Users/zach/.rbenv/shims:./bin:./node_modules/.bin:/Users/zach/.nvm/versions/node/v16.15.1/bin:/Users/zach/.rbenv/shims:/Users/zach/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/opt/homebrew/opt/sqlite/bin:/Users/zach/.rbenv/shims:./bin:./node_modules/.bin:/Users/zach/.nvm/versions/node/v16.15.1/bin:/Users/zach/.rbenv/bin:/usr/local/sbin:/opt/homebrew/bin:/usr/local/sbin:/opt/homebrew/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/zach/code/1zach/freeCodeCampNode/boilerplate-express/package.json: Unexpected token / in JSON at position 201
+      at JSON.parse (<anonymous>)
+      at /Users/zach/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/zach/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/zach/.nvm/versions/node/v16.15.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "fcc-learn-node-with-express",
+    "version": "0.1.0",
+    "dependencies": {
+      "body-parser": "^1.15.2",
+      "cookie-parser": "^1.4.3",
+      "dotenv": "^16.0.1",
+      "express": "^4.14.0",
+      //"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+    },
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
